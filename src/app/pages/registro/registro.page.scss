@@ -1,0 +1,56 @@
+/* Estilo para el encabezado */
+ion-header {
+    background-color: #3880ff; /* Cambia el color de fondo del encabezado */
+  }
+  
+  ion-toolbar {
+    --background: transparent; /* Fondo transparente del encabezado */
+  }
+  
+  /* Estilo para el título */
+  ion-title {
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #fff; /* Color del texto del título */
+  }
+  
+  /* Estilo para los botones */
+  ion-button {
+    --background: #3880ff; /* Color de fondo del botón */
+    --border-radius: 10px; /* Radio de borde del botón */
+    color: #fff; /* Color del texto del botón */
+    font-weight: bold; /* Fuente en negrita */
+  }
+  
+  /* Estilo para los elementos de la lista */
+  ion-list {
+    padding: 0 16px; /* Espacio interno en los lados de la lista */
+  }
+  
+  ion-item {
+    --inner-padding-start: 8px; /* Espacio interno en el lado izquierdo del elemento */
+    --inner-padding-end: 8px; /* Espacio interno en el lado derecho del elemento */
+    margin-bottom: 12px; /* Margen inferior entre elementos de la lista */
+  }
+  
+  /* Estilo para los campos de entrada y etiquetas */
+  ion-label {
+    font-size: 16px; /* Tamaño de fuente de la etiqueta */
+  }
+  
+  ion-input {
+    --padding-start: 8px; /* Espacio interno en el lado izquierdo del campo de entrada */
+    --padding-end: 8px; /* Espacio interno en el lado derecho del campo de entrada */
+    font-size: 16px; /* Tamaño de fuente del campo de entrada */
+  }
+  
+  /* Estilo para los mensajes de error */
+  ion-text.color-danger {
+    font-size: 14px; /* Tamaño de fuente del mensaje de error */
+    color: #ff5733; /* Color del mensaje de error */
+    font-weight: bold; /* Fuente en negrita */
+  }
+  
+  /* Estilo para el botón de registro */
+  ion-button[expand="full"] {
+    margin-top: 20px; /* Margen superior para separar el botón de registro */
+  }

@@ -1,0 +1,31 @@
+ion-header {
+  --background: linear-gradient(135deg, #ff8c00, #ff6100);
+  --color: white;
+  --ion-color-base: #ff8c00;
+  --ion-color-base-rgb: 255,140,0;
+}
+
+.logo-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-name {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.app-name h1 {
+  font-size: 36px;
+  color:black;
+}
+
+ion-button {
+  --background: #ff8c00;
+  --color: #ffffff;
+  font-weight: bold;
+}
+
+ion-button:hover {
+  --background: #ff6100;
+}

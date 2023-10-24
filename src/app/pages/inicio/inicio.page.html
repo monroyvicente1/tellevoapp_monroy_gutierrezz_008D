@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline" color="warning"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>AutoCars</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <div class="logo-container">
+    <img src="assets/logoauto.jpg" alt="Logo de la app">
+  </div>
+  <div class="app-name">
+    <h1>AutoCars</h1>
+  </div>
+  <ion-button expand="full" color="primary" routerLink="/login">Iniciar Sesion</ion-button>
+  <ion-button expand="full" (click)="irARegistro()">Registrarse</ion-button>
+</ion-content>
+
+  
+
+
+
+
+
+
